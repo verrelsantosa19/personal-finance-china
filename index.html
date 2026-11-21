@@ -4,16 +4,88 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#ffffff">
+  <meta name="theme-color" content="#0F766E">
 
   <title>Personal Finance China</title>
 
   <link rel="manifest" href="./manifest.webmanifest">
-
   <link rel="icon" href="./icon.svg" type="image/svg+xml">
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      background: #f4f7f7;
+      font-family: Arial, sans-serif;
+      color: #172b2a;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 380px;
+      padding: 32px 24px;
+      background: white;
+      border-radius: 20px;
+      text-align: center;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.06);
+    }
+
+    h1 {
+      font-size: 24px;
+      margin-bottom: 12px;
+    }
+
+    p {
+      color: #647575;
+      line-height: 1.6;
+      font-size: 14px;
+    }
+
+    a {
+      display: block;
+      margin-top: 28px;
+      padding: 16px;
+      border-radius: 12px;
+      background: #0F766E;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .note {
+      margin-top: 20px;
+      font-size: 12px;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>Personal Finance China</h1>
-  <p>Aplikasi sedang dipersiapkan.</p>
+  <main class="container">
+    <h1>Personal Finance China</h1>
+
+    <p>
+      Aplikasi keuangan pribadi multi-mata uang
+      untuk mengelola IDR dan CNY.
+    </p>
+
+    <a
+      href="https://script.google.com/macros/s/AKfycbwUhcQ9vnPhbx4gyP9MVTrgNL1jg1OpB6J7o5ljd4YpxFzK6SUhZaKNwCQ_CsuNEXF0/exec"
+      target="_self"
+    >
+      Buka Aplikasi
+    </a>
+
+    <p class="note">
+      Pastikan menggunakan akun Google pemilik aplikasi.
+    </p>
+  </main>
 </body>
 </html>
