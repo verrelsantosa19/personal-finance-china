@@ -1,0 +1,13 @@
+
+{
+  "id": "/personal-finance-china/",
+  "name": "Personal Finance China",
+  "short_name": "Finance China",
+  "description": "Aplikasi keuangan pribadi multi-mata uang",
+  "start_url": "/personal-finance-china/",
+  "scope": "/personal-finance-china/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff"
+}
